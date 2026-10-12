@@ -167,3 +167,188 @@ footer {
         font-size: 14px;
     }
 }
+
+/* Computer Science ePortfolio Banner */
+
+header {
+    padding: 0 0 40px;
+}
+
+.portfolio-banner {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
+    background: #0b1120;
+}
+
+.header-content {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 35px 24px 0;
+}
+
+.header-content h1 {
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    font-weight: 700;
+}
+
+.header-content h2 {
+    font-size: clamp(1.1rem, 3vw, 1.5rem);
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 0 0 25px;
+    }
+
+    .portfolio-banner {
+        max-height: none;
+    }
+
+    .header-content {
+        padding: 25px 18px 0;
+    }
+}
+
+/* Responsive Banner Refinement */
+
+.portfolio-banner {
+    display: block;
+    width: 100%;
+    max-width: 2048px;
+    height: auto;
+    max-height: none;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+
+/* Professional Header Spacing */
+
+.header-content {
+    padding-top: 24px;
+}
+
+.header-content h1 {
+    margin-bottom: 4px;
+}
+
+.header-content h2 {
+    margin: 8px 0;
+}
+
+.header-content p {
+    margin: 6px 0;
+}
+
+header {
+    padding-bottom: 25px;
+}
+
+@media (max-width: 600px) {
+    .header-content {
+        padding-top: 18px;
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+}
+
+/* Final Compact Professional Header */
+
+header {
+    padding-bottom: 0;
+}
+
+.header-content {
+    padding: 18px 24px 16px;
+}
+
+.header-content h1 {
+    margin: 0 0 2px;
+    font-size: clamp(2rem, 3.2vw, 3rem);
+    line-height: 1.15;
+}
+
+.header-content h2 {
+    margin: 6px 0;
+    font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+    line-height: 1.4;
+}
+
+.header-content p {
+    margin: 4px 0;
+    font-size: 0.95rem;
+    line-height: 1.45;
+}
+
+@media (max-width: 600px) {
+    .header-content {
+        padding: 18px 14px 16px;
+    }
+
+    .header-content h1 {
+        font-size: clamp(1.8rem, 7vw, 2.3rem);
+    }
+}
+
+/* Final Banner Height Refinement */
+
+.portfolio-banner {
+    width: 100%;
+    max-width: none;
+    height: clamp(200px, 20vw, 300px);
+    object-fit: cover;
+    object-position: center center;
+}
+
+@media (max-width: 600px) {
+    .portfolio-banner {
+        height: 180px;
+    }
+}
+
+/* Banner proportions refinement */
+.portfolio-banner {
+    display: block;
+    width: 100%;
+    height: clamp(240px, 24vw, 360px);
+    object-fit: cover;
+    object-position: center 50%;
+}
+
+@media (max-width: 600px) {
+    .portfolio-banner {
+        height: 180px;
+        object-position: center center;
+    }
+}
+
+/* Final Compact Banner Height */
+.portfolio-banner {
+    height: clamp(200px, 18vw, 260px);
+    object-fit: cover;
+    object-position: center center;
+}
+
+@media (max-width: 600px) {
+    .portfolio-banner {
+        height: 150px;
+    }
+}
+
+/* Proportional Cropped Banner */
+
+.portfolio-banner {
+    display: block;
+    width: 100%;
+    max-width: 2048px;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
